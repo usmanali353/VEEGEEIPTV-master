@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff000000</color>
+    <color name="colorPrimaryDark">#ff000000</color>
+    <color name="colorAccent">#FFFFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="third_tab">@android:color/holo_blue_light</color>
+    <color name="first_tab">#ff0916</color>
+</resources>

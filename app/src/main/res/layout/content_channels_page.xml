@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root_layout"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".channels_page"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:showIn="@layout/activity_channels_page">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/video_frame"
+        >
+       <SurfaceView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/preview"
+           android:gravity="top"
+           />
+    </FrameLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/channel_list"
+        android:dividerHeight="0.1dp"
+        android:divider="@drawable/list_divider"
+        >
+
+    </ListView>
+</LinearLayout>
